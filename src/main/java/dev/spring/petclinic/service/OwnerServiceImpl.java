@@ -32,7 +32,7 @@ public class OwnerServiceImpl implements OwnerService {
 
     @Override
     public List<Owner> findAll() {
-        return null;
+        return ownerRepository.findAll();
     }
 
     @Override
@@ -69,5 +69,6 @@ public class OwnerServiceImpl implements OwnerService {
     public void deleteById(Long aLong) {
 
     }
+
 
 }

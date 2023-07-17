@@ -20,6 +20,5 @@ public interface OwnerService extends CrudService<Owner, Long> {
     // save
     Owner save(Owner owner);
 
-//    // update
-//    Owner update(Owner owner);
+    List<Owner> findAll();
 }

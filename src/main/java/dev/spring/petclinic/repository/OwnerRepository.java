@@ -34,4 +34,6 @@ public interface OwnerRepository extends CrudRepository<Owner, Long>{
 //
 //    @Override
 //    <S extends Owner> S save(S entity); // ServiceImpl 에서 바로 CrudRepository를 사용 가능 , 이처럼 따로 선언 불필요
+
+    List<Owner> findAll();
 }
